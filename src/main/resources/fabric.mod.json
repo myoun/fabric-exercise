@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "exercise",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fabric Exercise",
+  "description": "FabricMC practice mod",
   "authors": [
-    "Me!"
+    "myoun"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/myoun/fabric-exercise"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/exercise/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       {
         "adapter": "kotlin",
-        "value": "net.fabricmc.example.ExampleMod"
+        "value": "app.myoun.exercise.FabricExerciseMod"
       }
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "exercise.mixins.json"
   ],
 
   "depends": {
